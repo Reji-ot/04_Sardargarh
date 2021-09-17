@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'Brandon';
+  src: url('./assets/fonts/brandon-grotesque.woff') format('woff');
+}
+@font-face {
+  font-family: 'Trajan';
+  src: url('./assets/fonts/TrajanPro-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Zapfino';
+  src: url('./assets/fonts/ZapfinoExtraLT-One.woff') format('woff');
+}
+/* Sass templates */
+/* global classes*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffdec;
+}
+
+/* h2 {
+  color: #9b7a16;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+  text-shadow: 10px 10px 50px #888888;
+}
+
+h3 {
+  color: #9b7a16;
+  text-align: center;
+  position: relative;
+  font-weight: 400;
+  text-shadow: 10px 10px 50px #888888;
+} */
+
+h2,
+h3 {
+  margin: 25px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  color: #9b7a16;
+  width: 100%;
+  border: 1px solid;
+}
+
+/*Header template*/
+.logo {
+  width: 75px;
+  height: 75px;
+  padding: auto;
+  margin-right: 1.5rem;
+}
+
+.navbar {
+  background-color: #fffdec;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-item {
+    margin: 0 0.6rem;
+  }
+}
+/* Typography Classes*/
+.font-Brandon {
+  font-family: 'Brandon', sans-serif;
+}
+
+.font-Trajan {
+  font-family: 'Trajan', sans-serif;
+}
+
+.font-Zapfino {
+  font-family: 'Zapfino', sans-serif;
+}
+
+.font-Tnr {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-transform: initial;
+}
+
+.f-s-12 {
+  font-size: 12px;
+}
+
+.f-s-14 {
+  font-size: 14px;
+}
+
+.f-s-16 {
+  font-size: 16px;
+}
+
+.f-s-18 {
+  font-size: 18px;
+}
+
+.f-s-20 {
+  font-size: 20px;
+}
+
+.f-s-30 {
+  font-size: 30px;
+}
+
+.f-s-40 {
+  font-size: 40px;
+}
+
+.f-s-60 {
+  font-size: 60px;
+}
+
+.f-s-80 {
+  font-size: 80px;
+}
+
+.f-s-100 {
+  font-size: 100px;
+}
+
+/* Color templates*/
+.color-ivory {
+  color: #fffdec !important;
+}
+
+.color-lgrey {
+  color: #d6d2cd !important;
+}
+
+.color-gold {
+  color: #877333 !important;
+}
+
+.color-white {
+  color: #fff !important;
+}
+
+.color-dgrey {
+  color: #535150 !important;
+}
+
+.color-ivory-bg {
+  background: #fffdec !important;
+}
+
+.color-lgrey-bg {
+  background: #d6d2cd !important;
+}
+
+.color-gold-bg {
+  background: #877333 !important;
+}
+
+.color-white-bg {
+  background: #fff !important;
+}
+
+.color-dgrey-bg {
+  background: #535150 !important;
+}
+
+/* Banner-section */
+
+#banner-area {
+  max-width: 100%;
+  max-height: fit-content;
+}
+
+.bg-image-1 {
+  width: 100%;
+  height: 600px;
+  background-image: url(./assets/images/interior.png);
+  background-size: cover;
+  background-position: initial;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-image-2 {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+
+.bg-image-3 {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+
+.bg-image-4 {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.content {
+  background-color: rgba(255, 253, 236, 0.8);
+  position: absolute;
+  border-radius: 5px;
+  top: 60%;
+  left: 25%;
+  width: 50%;
+  height: 35%;
+  text-align: justify;
+}
+
+.para-test {
+  padding: 25px;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  word-spacing: 1.2rem;
+}
