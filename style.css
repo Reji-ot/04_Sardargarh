@@ -19,7 +19,29 @@
 }
 
 body {
-  background-color: #fffdec;
+  /* background-color: #fffdec; */
+}
+
+header {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.overlay {
+  width: 100%;
+  height: max-content;
+  background-color: rgba(83, 81, 80, 0.5);
+  position: absolute;
+  top: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay input {
+  border-radius: 10px;
+  border: none;
 }
 
 /* h2 {
@@ -54,16 +76,20 @@ hr {
   border: 1px solid;
 }
 
+main {
+  background-image: url(./assets/images/backdrop.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
 /*Header template*/
 .logo {
   width: 75px;
   height: 75px;
   padding: auto;
   margin-right: 1.5rem;
-}
-
-.navbar {
-  background-color: #fffdec;
 }
 
 @media screen and (min-width: 768px) {
@@ -176,8 +202,14 @@ hr {
 #banner-area {
   max-width: 100%;
   max-height: fit-content;
+  position: relative;
+  top: 0;
 }
 
+.media {
+  width: 100%;
+  z-index: -2;
+}
 .bg-image-1 {
   width: 100%;
   height: 800px;
@@ -185,20 +217,24 @@ hr {
 
 .bg-image-2 {
   width: 100%;
-  height: 500px;
+  height: 800px;
   text-align: center;
+  z-index: 1;
 }
 
 .bg-image-3 {
   width: 100%;
-  height: 800px;
+  height: 360px;
   text-align: center;
 }
 
 .bg-image-4 {
-  width: 100%;
-  height: 500px;
+  height: 900px;
   text-align: center;
+}
+
+.bg-image-4 img {
+  filter: drop-shadow(-10px 20px 10px #222);
 }
 
 .content {
@@ -217,4 +253,22 @@ hr {
   text-align: center;
   letter-spacing: 0.3rem;
   word-spacing: 1.2rem;
+}
+
+.card,
+.list-group-item {
+  background-color: lavenderblush;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+}
+
+.btn-pink {
+  background-color: lavenderblush;
+}
+
+.container-fluid {
+  padding: 0;
 }
