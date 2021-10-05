@@ -10,72 +10,81 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
- <!-- Owl carousel CDN-->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
- <link rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl carousel CDN-->
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
 
- <!-- Fontawesome CDN -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
 
- <!-- Custom CSS file -->
- <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" 
+        href="style.css" 
+        type="text/css" />
 
 </head>
 <body>
-    
      <!-- Start Header-->
-        <header id="header" class ="mb-5 mb-md-0">
-    <!-- Primary Navigation -->
+    <header id="header" class ="mb-5 mb-md-0">
+        <!-- Primary Navigation -->
         <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-transparent">
-        <div class="container-fluid">
-            <div class="navbar-brand navbar-left d-flex">
-                <a href="./index.html" ><img src="./assets/logo/logo.png" alt="brand-logo" class='logo ms-2'/>
+            <div class="container-fluid">
+                <div class="navbar-brand navbar-left d-flex">
+                    <a href="./index.html" >
+                        <img src="./assets/logo/logo.png" alt="brand-logo" class='logo ms-2'/>
+                    </a>
+                </div>
+            
+        <!-- Toggler/collapsibe Button -->
+                <Button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </Button>
+            
+                <div class="collapse navbar-collapse navbar-toggleable-md m-auto" id="collapsibleNavbar">
+                    <ul class="navbar-nav nav-pills nav-fill me-auto ms-auto font-Trajan">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link f-s-20 color-ivory">HOME</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link f-s-20 color-ivory ">HISTORY & HERITAGE</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link f-s-20 color-ivory">STAY</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link f-s-20 color-ivory" >DINE</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link f-s-20 color-ivory" >MEET & CELEBRATE</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link f-s-20 color-ivory" >IN & AROUND</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link f-s-20 color-ivory" >CONTACT US</a>
+                        </li>
+                    </ul>
+                    
+                </div>
             </div>
         
-          <!-- Toggler/collapsibe Button -->
-            <Button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </Button>
-          
-            <div class="collapse navbar-collapse navbar-toggleable-md m-auto" id="collapsibleNavbar">
-          <ul class="navbar-nav nav-pills nav-fill me-auto ms-auto font-Trajan">
-            <li class="nav-item">
-                <a href="#" class="nav-link f-s-20 color-ivory">HOME</a>
-              </li>
-            <li class="nav-item mx-3">
-              <a href="#" class="nav-link f-s-20 color-ivory ">HISTORY & HERITAGE</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a href="#" class="nav-link f-s-20 color-ivory">STAY</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a href="#" class="nav-link f-s-20 color-ivory" >DINE</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a href="#" class="nav-link f-s-20 color-ivory" >MEET & CELEBRATE</a>
-            </li>
-            <li class="nav-item mx-3">
-                <a href="#" class="nav-link f-s-20 color-ivory" >IN & AROUND</a>
-            </li>
-            <li class="nav-item mx-3">
-                <a href="#" class="nav-link f-s-20 color-ivory" >CONTACT US</a>
-            </li>
-        </ul>
-                
-          </div>
-        </div>
-        
         </nav>
-    <!-- !Primary Navigation -->    
-        </header>
-    <!-- !Start Header-->
+        <!-- !Primary Navigation -->    
+    </header>
+    <!-- ! Header ends-->
     
     <!-- Start Mainsite -->
     <main>
@@ -152,8 +161,8 @@
                 </div>
         </section>
         <!-- !Story section -->
-        <!-- Values section -->
-        <section id="Value-section"> 
+        <!-- Accommodation section -->
+        <section id="Accomodation-section"> 
             <div class="container-fluid my-5">
                 <div class="row">
                         <div class="float-left color-dark">
@@ -163,7 +172,7 @@
                 <div class="row">
                     <div class="card-group">
                         <div class="col px-3">
-                            <div class="card h-100">
+                            <div class="card h-100 my-md-3">
                           <img src="./assets/images/room_1.png" class="card-img-top p-2" alt="Room_1">
                           <div class="card-body">
                             <h5 class="card-title color-gold">FORT ROOM</h5>
@@ -186,7 +195,7 @@
 
 
                         <div class="col px-3">
-                            <div class="card h-100">
+                            <div class="card h-100 my-md-3">
                           <img src="./assets/images/room_2.png" class="card-img-top p-2" alt="Room_2">
                           <div class="card-body">
                             <h5 class="card-title color-gold">ROYAL SUITE WITH LAKE VIEW</h5>
@@ -210,7 +219,7 @@
 
 
                         <div class="col px-3">
-                            <div class="card h-100">
+                            <div class="card h-100 my-md-3">
                           <img src="./assets/images/room_3.png" class="card-img-top p-2" alt="Room_3">
                           <div class="card-body">
                             <h5 class="card-title color-gold">ROYAL SUITE WITH VERANDAH</h5>
@@ -239,9 +248,9 @@
                 </div>
             </div> 
         </section>
-        <!-- !Values section -->
-        <!-- Culture section -->
-        <section id="Culture-section" class="my-5"> 
+        <!-- ! Accommodation section -->
+        <!-- Locator section -->
+        <section id="Locator-section" class="my-5"> 
             <div class="container-fluid my-5">
                 <div class="row py-2">
                     <div class="float-left color-dark">
@@ -250,7 +259,7 @@
                 </div>
                 <div class="media row">
                     <div class="col float-left">
-                        <div class="bg-image-3">
+                        <div class="bg-image-1">
                             <img src="./assets/images/Way_to_sg.png" alt="Entrance" height="100%" width="90%">
                         </div>
                     </div>
@@ -294,9 +303,9 @@
                 </div>
             </div> 
         </section>
-        <!-- !culture section -->
-        <!-- Accommodation section -->
-        <section id="Accommodation-section"> 
+        <!-- ! Locator section -->
+        <!-- Values section -->
+        <section id="Values-section"> 
             <div class="container-fluid my-5">
                 <div class="row py-5">
                     <div class="float-left color-dark">
@@ -337,14 +346,14 @@
                         </div>
             </div>
         </section>
-        <!-- !Accommodation section -->
-        <!-- Accommodation section -->
-        <section id="Accommodation-section"> 
+        <!-- ! Values section -->
+        <!-- Cultural section -->
+        <section id="Cultural-section"> 
             <div class="container-fluid my-5">
                 <div class="row py-5">
 
                     <div class="col float-left">
-                        <div class="bg-image-4">
+                        <div class="bg-image-2">
                             <img src="./assets/images/diverse-bg.png" alt="medals" height="100%" width="90%">
                         </div>
                     </div>
@@ -381,12 +390,12 @@
                 </div>
             </div>
         </section>
-        <!-- !Accommodation section -->
+        <!-- ! Cultural section -->
         <!-- Dining section -->
-        <section id="Value-section"> 
+        <section id="Dining-section"> 
             <div class="container-fluid my-5 py-5">
                 <div class="row py-5">
-                    <div class="bg-image-5">
+                    <div class="bg-image-3">
                         <img src="./assets/images/Wine & Dine.png" alt="values" height="100%" width="100%">
                     </div>
                 </div>
@@ -403,14 +412,14 @@
                 </div>
                 
                 <div class="media row">
-                    <div class="bg-image-6">
+                    <div class="bg-image-4">
                         <img src="./assets/images/Stories.jpg" alt="values" height="100%" width="100%">
                     </div>
                 </div>
             </div> 
         </section>
         <!-- !Time section -->
-        <!-- Time section -->
+        <!-- Testimonial section -->
         <section id="Testimonial-section"> 
             <div class="container-fluid my-5">
                 <div class="row ">
@@ -425,78 +434,81 @@
                 </div>
             </div> 
         </section>
-        <!-- !Time section -->
+        <!-- ! Testimonial section -->
     </main>
-    <!-- !Start Mainsite -->
+    <!--! Mainsite ends -->
 
 
-<!-- Footer section -->
-<footer class="container-fluid footer color-gold-bg">
-    <div class="row">
-        <div class="col"></div>
-        <div class="col"></div>
-    </div>
-    <nav class="navbar navbar-light navbar-expand-md color-gold-bg">
-        <div class="container-fluid">
-            <div class="navbar-brand navbar-left d-flex">
-                <a href="./index.html" ><img src="./assets/logo/logo-watermark-white.png" alt="brand-logo" class='logo ms-2'/>
-            </div>
-          
-          
+    <!-- Footer section -->
+    <footer class="container-fluid footer color-gold-bg">
+<div class="row">
+    <div class="col"></div>
+    <div class="col"></div>
+</div>
+<nav class="navbar navbar-light navbar-expand-md color-gold-bg">
+    <div class="container-fluid">
+        <div class="navbar-brand navbar-left d-flex">
+            <a href="./index.html" ><img src="./assets/logo/logo-watermark-white.png" alt="brand-logo" class='logo ms-2'/>
+        </div>
         
-          <!-- Toggler/collapsibe Button -->
-            <Button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </Button>
-          
-            <div class="collapse navbar-collapse navbar-toggleable-md m-auto" id="collapsibleNavbar">
-        <ul class="navbar-nav nav-pills nav-fill me-auto ms-auto font-Trajan">
-          <li class="nav-item">
-              <a href="#" class="nav-link font-size-40 color-white">CONTACT US</a>
-            </li>
-          <li class="nav-item mx-3">
-            <a href="#" class="nav-link font-size-40 color-white ">SITE MAP</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a href="#" class="nav-link font-size-40 color-white">BLOGS</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a href="#" class="nav-link font-size-40 color-white" >INQUIRY</a>
-          </li>
-      </ul>
-              
-        </div>
-        </div>
-    </nav>
+        
     
+        <!-- Toggler/collapsibe Button -->
+        <Button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </Button>
+        
+        <div class="collapse navbar-collapse navbar-toggleable-md m-auto" id="collapsibleNavbar">
+    <ul class="navbar-nav nav-pills nav-fill me-auto ms-auto font-Trajan">
+        <li class="nav-item">
+            <a href="#" class="nav-link font-size-40 color-white">CONTACT US</a>
+        </li>
+        <li class="nav-item mx-3">
+        <a href="#" class="nav-link font-size-40 color-white ">SITE MAP</a>
+        </li>
+        <li class="nav-item mx-3">
+        <a href="#" class="nav-link font-size-40 color-white">BLOGS</a>
+        </li>
+        <li class="nav-item mx-3">
+        <a href="#" class="nav-link font-size-40 color-white" >INQUIRY</a>
+        </li>
+    </ul>
+            
+    </div>
+    </div>
+</nav>
 
-                <!-- <div class="row">
-                    <div class="col-12 ">
-                        <p class="footer-credit">
-                            <a href="/" class="text-dark text-decoration-none color-white" >© 2021 All right reserved:</a>
-                            <span ><a href="/" class="text-dark text-decoration-none color-white">Sardargarh Fort</a></span>
-                        </p>
-                    </div>
-                </div> -->
-        </footer>
+
+            <!-- <div class="row">
+                <div class="col-12 ">
+                    <p class="footer-credit">
+                        <a href="/" class="text-dark text-decoration-none color-white" >© 2021 All right reserved:</a>
+                        <span ><a href="/" class="text-dark text-decoration-none color-white">Sardargarh Fort</a></span>
+                    </p>
+                </div>
+            </div> -->
+    </footer>
     <!-- !Footer section -->
 
 
     <!-- Bootstrap bundle script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 
     <!-- Owl Carousel JS file-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
 
     <!-- Jquery isotope -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
         integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
 
     <!-- Custom Js file -->
     <script src="script.js"></script>
