@@ -74,11 +74,12 @@ hr {
 }
 
 main {
-  background-image: url(./assets/images/backdrop.jpg);
+  background-image: url(./assets/images/backdrop-y.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  min-height: 500px;
+  background-size: cover;
+  min-height: 300px;
 }
 
 /*Header template*/
