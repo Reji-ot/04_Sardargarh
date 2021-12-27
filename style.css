@@ -74,7 +74,7 @@ a {
 main {
   background-image: url(./assets/images/backdrop_rev.jpg);
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
   min-height: 100px;
