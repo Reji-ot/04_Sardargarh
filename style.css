@@ -74,10 +74,10 @@ a {
 main {
   background-image: url(./assets/images/backdrop-y.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: inherit;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 300px;
+  min-height: 100px;
 }
 
 /*Header template*/
@@ -264,7 +264,8 @@ main {
 /* Accommodation Section */
 .card,
 .list-group-item {
-  background-color: lavenderblush;
+  background-color: #f9f6fc;
+  border: none !important;
 }
 
 .card img {
