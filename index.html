@@ -40,11 +40,11 @@
      <!-- Start Header-->
     <header id="header" class ="mb-5 mb-md-0">
         <!-- Primary Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-transparent">
-            <div class="container-fluid">
-                <div class="navbar-brand navbar-left d-flex">
+        <nav class="navbar navbar-fixed-top navbar-dark">
+            <div class="container-fluid d-flex flex-row">
+                <div class="navbar-brand navbar-left col-8">
                     <a href="./index.html" >
-                        <img src="./assets/logo/logo.png" alt="brand-logo" class='logo ms-2'/>
+                        <img src="./assets/logo/logo.png" alt="brand-logo" class="logo ms-2">
                     </a>
                 </div>
             
@@ -53,8 +53,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </Button>
             
-                <div class="collapse navbar-collapse navbar-toggleable-md m-auto" id="collapsibleNavbar">
-                    <ul class="navbar-nav nav-pills nav-fill me-auto ms-auto font-Trajan">
+                <div class="collapse navbar-collapse navbar-toggleable col-2" id="collapsibleNavbar">
+                    <ul class="navbar-nav nav-pills nav-fill font-Trajan">
                         <li class="nav-item">
                             <a href="#" class="nav-link f-s-20 color-ivory">HOME</a>
                         </li>
@@ -77,12 +77,23 @@
                             <a href="#" class="nav-link f-s-20 color-ivory" >CONTACT US</a>
                         </li>
                     </ul>
-                    
+                  
                 </div>
+                <div class="col-2">
+                    <Button class="btn p-2" type="button">
+                    <h2 class="nav-title font-Trajan">
+                        RESERVE
+                    </h2>
+                <Button> 
+                </div>
+                 
             </div>
-        
+         
         </nav>
-        <!-- !Primary Navigation -->    
+        <!-- !Primary Navigation -->  
+        
+       
+        
     </header>
     <!-- ! Header ends-->
     
@@ -91,402 +102,238 @@
         <!-- Banner section -->
         <section id="banner-area">
                 <div class="media">
-                    <!-- <video width="100%" height="56.25%" muted loop autoplay>
-                        <source src="./assets/video/Banner_video.mp4" type="video/mp4">
+                    <video width="100%" height="56.25%" muted loop autoplay>
+                        <source src="./assets/video/The_Sardargarh.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                     </video> -->
-                    <img class="img-responsive" src="./assets/images/banner.png" alt="banner-img" width="100%" height="100%">
-                    <div class="overlay d-flex py-3">
-                        <div class="px-5">
-                            <p class="color-ivory text-center">Check-In</p>
-                            <input type="date" name="Cin_date" id="checkin_date" required>
-                        </div>
-                        <div class="px-5">
-                            <p class="color-ivory text-center">Check-Out</p>
-                            <input type="date" name="Cout_date" id="checkout_date" required>
-                        </div>
-                        <div class="text-center">
-                            <p class="color-ivory text-center">Rooms</p>
-                            <input type="number" name="Num_rooms" id="Num_rooms" class="w-50">
-                        </div>
-                        <div class="text-center">
-                            <p class="color-ivory text-center">Guests</p>
-                            <input type="number" name="Num_rooms" id="Num_rooms" class="w-50">
-                        </div>
-                        <div class= "px-5">
-                            <a href="" type="button" class="btn btn-danger f-s-12 font-Trajan text-bold">
-                                CHECK AVAILABILITY 
-                            </a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <!-- !Banner section -->
-        <!-- Story section -->
-        <section id="story-section"> 
-            <div class="container-fluid my-5">
-                <div class="row">
-                    <div class="col">
-                        <div class="w-100 text-wrap color-dark">
-                           <h2 class="font-Trajan f-s-40">THE SARDAR HERITAGE FORT UDAIPUR</h2>
-                        </div>
-                        <div class="p-5">
-                            <p class="font-Brandon f-s-20 px-5 color-dgrey text-center">
-                            The castle of Sardargarh, one of the magnificent forts of Rajasthan, placed amidst the mountains and deep forests of Chuppun. It is an extravagant
-                            creation by men of a bygone era. ..... The castle of Sardargarh, one of the magnificent forts of Rajasthan, placed amidst the mountains and deep
-                            forests of Chuppun. It is an extravagant creation by men of a bygone era. The castle of Sardargarh, one of the magnificent forts of Rajasthan, placed
-                            amidst the mountains and deep forests of Chuppun. It is an extravagant creation by men of a bygone era. ..... The castle of Sardargarh, one of the
-                            magnificent forts of Rajasthan, placed amidst the mountains and deep forests of Chuppun. It is an extravagant creation by men of a bygone era. The
-                            castle of Sardargarh, one of the magnificent forts of Rajasthan, placed amidst the mountains and deep forests of Chuppun. It is an extravagant
-                            creation by men of a bygone era. ..... The castle of Sardargarh, one of the magnificent forts of Rajasthan, placed amidst the mountains and deep
-                            forests of Chuppun. It is an extravagant creation by men of a bygone era <br> <br>
-
-                            <span class="text-bold text-center">
-                                <a href="" type="button" class="btn btn-pink f-s-12 font-Trajan">
-                                    KNOW MORE ABOUT US 
-                                </a>
-                                
-                            </span>
-                            
-                        </p>
-                        </div>
-                        
-                    </div>
-                </div>
-                
-            
-                            
-                        
+                    <!-- <img class="img-responsive" src="./assets/images/revised/Banner_1.jpg" alt="banner-img" width="100%" height="100%"> -->
                     
                 </div>
         </section>
-        <!-- !Story section -->
+        <!-- !Banner section ends -->
+
+        <!-- Intro section -->
+        <section id="intro">
+
+            <div class="row my-5">
+                    <h2 class="font-Trajan f-s-40">HISTORY | CULTURE | COMMUNITY</h2>
+            </div>
+
+            <div class="row my-5 px-5">
+                <p class="font-Brandon f-s-30 color-dgrey text-center">
+                    The Sardargarh Heritage Fort is not just a place but also the home of the royal family with endless stories of the 300 year old history allied to this magnificient battle fort.
+                    In line with the family's firm belief to benefit the community, many experiences at the fort have been curated along with the local villagers of Sardargarh.
+                </p>
+            </div>
+
+            <div class="row my-2 px-5">
+                <p class="font-Brandon f-s-30 color-dgrey text-center">
+                    Overlooking the lake, surrounding by the magnificient Aravalli Hills, the fort is the hidden gem tha has beautifully preserved the medieval architecture an offer guests 
+                    exceptional experiences like folk music, dance, farm-to-table and much more.
+                </p>
+            </div>
+
+        </section>
+        <!-- !Intro section ends -->
+
         <!-- Accommodation section -->
-        <section id="Accomodation-section"> 
-            <div class="container-fluid my-5 px-5">
+        <section id="stay"> 
+            <div class="container">
                 <div class="row">
-                        <div class="float-left color-dark">
-                            <h2 class="font-Trajan f-s-30 text-start">STAY & LAZE</h2>
-                         </div>
+                            <h2 class="font-Trajan f-s-40 text-center">STAY & LAZE</h2>     
                 </div>
                 <div class="row">
                     <div class="card-group">
-                        <div class="col col-md-4 px-5">
-                            <div class="card h-90 my-md-3">
-                          <img src="./assets/images/Fort_room.jpg" class="card-img-top " alt="Room_1">
-                          <div class="card-body">
-                            <h5 class="card-title color-gold">FORT ROOM</h5>
-                            <p class="card-text color-dgrey">An authentic heritage room with ample
-                                space for two guests., tastefully designed
-                                with a touch of modern amenities.</p>
-                            <p class="card-text">
-                                <small class="text-start">
-                                        <ul class="list-group">
-                                            <li class="list-group-item border-0">250 ft<sup>2</sup></li>
-                                            <li class="list-group-item border-0">Complimentary WIFI</li>
-                                            <li class="list-group-item border-0">Upto two guests</li>
-                                            <li class="list-group-item border-0">Garden View</li>
-                                        </ul>
-                                </small>
-                            </p>
-                          </div>
-                        </div></div>
-                        
 
-
-                        <div class="col col-md-4 px-5">
-                            <div class="card h-90 my-3">
-                          <img src="./assets/images/Lake_View.jpg" class="card-img-top " alt="Room_2">
+                        <div class="col col-md-4 px-3">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/RSWV.jpg" class="card-img-top " alt="Room_1">
                           <div class="card-body">
-                            <h5 class="card-title color-gold">ROYAL SUITE WITH LAKE VIEW</h5>
-                            <p class="card-text color-dgrey">An authentic heritage room with ample
-                                space for two guests., tastefully designed
-                                with a touch of modern amenities.</p>
-                            <p class="card-text">
-                                <small class="text-start">
-                                        <ul class="list-group">
-                                            <li class="list-group-item border-0">250 ft<sup>2</sup></li>
-                                            <li class="list-group-item border-0">Complimentary WIFI</li>
-                                            <li class="list-group-item border-0">Upto two guests</li>
-                                            <li class="list-group-item border-0">Garden View</li>
-                                        </ul>
-                                </small>
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">ROYAL SUITE WITH VERANDAH</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
                             </p>
                           </div>
                         </div>
-                    </div>
+                       </div>
                         
-
-
-                        <div class="col col-md-4 px-5">
-                            <div class="card h-90 my-md-3">
-                          <img src="./assets/images/Verandah_view_2.jpg" class="card-img-top " alt="Room_3">
+                       <div class="col col-md-4 px-3">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/RSWG.jpg" class="card-img-top " alt="Room_1">
                           <div class="card-body">
-                            <h5 class="card-title color-gold">ROYAL SUITE WITH VERANDAH</h5>
-                            <p class="card-text color-dgrey">An authentic heritage room with ample
-                                space for two guests., tastefully designed
-                                with a touch of modern amenities.</p>
-                            <p class="card-text">
-                                <small class="text-start">
-                                        <ul class="list-group">
-                                            <li class="list-group-item border-0">250 ft<sup>2</sup></li>
-                                            <li class="list-group-item border-0">Complimentary WIFI</li>
-                                            <li class="list-group-item border-0">Upto two guests</li>
-                                            <li class="list-group-item border-0">Garden View</li>
-                                        </ul>
-                                </small>
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">ROYAL SUITE WITH GARDEN VIEW</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
                             </p>
                           </div>
                         </div>
-                    </div>
-                        
+                       </div>
 
-
+                       <div class="col col-md-4 px-3">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/RSWL.jpg" class="card-img-top " alt="Room_1">
+                          <div class="card-body">
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">ROYAL SUITE WITH LAKE VIEW</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
+                            </p>
+                          </div>
+                        </div>
+                       </div>
 
                       </div>
 
                 </div>
             </div> 
         </section>
-        <!-- ! Accommodation section -->
-        <!-- Locator section -->
-        <section id="Locator-section" class="my-5"> 
-            <div class="container-fluid my-5 px-5">
-                <div class="row py-2">
-                    <div class="float-left color-dark">
-                        <h2 class="font-Trajan f-s-30 text-start">WAY TO US</h2>
-                     </div>
-                </div>
-                <div class="row px-5">
-                    <div class="col-md-6 bg-image-1">
-                            <img class="img-responsive" src="./assets/images/Way_to_us_1.jpg" alt="Entrance" height="100%" width="100%">
-                    </div>
+        <!-- ! Accommodation section ends -->
 
-                    <div class="comm col-md-6 py-5">
-                        <div class="row">
-                            <div class="col col-md-1">
-                                <img src="./assets/images/address.png" alt="Address-icon" height="40px" width="30px">
-                            </div>
-                            <div class="col col-md-5">
-                                <p>Sardargarh – 313 330, Dist. Rajsamand, <br>
-                                Rajasthan, India.</p>
-                            </div>    
-                        </div>
-                        <div class="row">
-                            <div class="col col-md-1">
-                                <img src="./assets/images/mail.png" alt="Mail-icon" height="30px" width="40px">
-                            </div>
-                            <div class="col col-md-5">
-                                <p>reservations@sardargarh.in</p>
-                            </div>    
-                        </div>
-                        <div class="row py-5">
-                            <p class="font-Brandon f-s-20 color-dgrey text-justify px-2">
-                            The Sardargarh Heritage Fort Udaipur’s overall
-                            architectural style is grand, but still it strikes you with
-                            a solemn austerity. Understandable, since it was build
-                            for military reasons, Shunning florid aesthetic
-                            expressions. It is fortified with massive ramparts, and
-                            giant circular bastions with battlements. <br> <br>
-                            The fort hotel preserves the heritage and tradition of
-                            the erstwhile rulers of Mewar and offers guests a
-                            glimpse of' a privileged royal lifestyle. The fort is a 1.5
-                            hr drive from the Maharana Pratap Airport and the
-                            Udaipur city (94 kms; south) as well as the railway
-                            station.
-                        </p>
-                        </div>
-                        
-                     </div>
-                </div>
-            </div> 
-        </section>
-        <!-- ! Locator section -->
-        <!-- Values section -->
-        <!-- <section id="Values-section"> 
-            <div class="container-fluid my-5">
-                <div class="row py-5">
-                    <div class="float-left color-dark">
-                        <h2 class="font-Trajan f-s-30 text-start">OUR VALUES</h2>
-                     </div>
-                </div>
-                <div class="medals row">
-                        <div class="col">
-                            <img src="./assets/images/medal_1.png" alt="medal_1">
-                        </div>
-                        <div class="col">
-                            <img src="./assets/images/medal_2.png" alt="medal_2">
-                        </div>
-                        <div class="col">
-                            <img src="./assets/images/medal_3.png" alt="medal_3">
-                        </div>
-                        <div class="col">
-                            <img src="./assets/images/medal_4.png" alt="medal_4">
-                        </div>                    
-                </div>
-    
-                        <div class="row p-5">
-                            <p class="font-Brandon f-s-20 px-5 color-dgrey text-justify">
-                                Sardargarh, one of the magnificent forts of Rajasthan, is an extravagant creation by men of a bygone era. Placed amidst the
-                                mountains and deep forests of Chuppun, Sardar Singh, one of the most powerful Dhodhias, built the Sardargarh Fort from
-                                1738 to 1743. You can see the ramparts of the Sardargarh like a great ship anchored at outer sea, much before you get close
-                                to the gigantic walls soaring high above the village of Lawah. Sardargarh Fort is situated 94km north of Udaipur.
-                                The emblem of the Sardar Singh family is a rising sun and a sword. Beneath that, they wrote, “Work is thy duty, reward is
-                                not thy concern”. <br>
-                                At the Inauguration of Sardargarh in the year 1743, Maharana Jagat Singh – II the then King of Udaipur was so impressed by
-                                the architecture of the Fort that he appointed Thakur Sardar Singh to supervise the construction of Jag Niwas, now known as
-                                Lake Palace, a popular Land mark of Udaipur. <br>
-                                “Sardar Singh Dhodhia erected a Castle in his domain of Lawah, on which he built a splendid palace whose China and Mirror
-                                halls are still the theme of encomium. These were greatly defaced by an explosion of a powder magazine, which threw down
-                                half the fortress that had taken five years to complete. Though it underwent considerable repair, it lost much of its splendour
-                                which the guns of Holkar aided to diminish. But the castle of Lawah is still one of the finest in Mewar.” <br> <br>
-                            </p>
-                        </div>
-            </div>
-        </section> -->
-        <!-- ! Values section -->
-        <!-- Cultural section -->
-        <!-- <section id="Cultural-section"> 
-            <div class="container-fluid my-5">
-                <div class="row py-5">
-
-                    <div class="col-md-6 bg-image-2">
-                            <img src="./assets/images/diverse-bg.png" alt="diverse" height="100%" width="100%">
-                    </div>
-
-                    <div class="col-md-6 align-items-center">
-                        <h2 class="font-Trajan f-s-30 text-center py-5 color-gold">A DIVERSE UNIVERSE</h2>
-                        <p class="font-Brandon f-s-20 color-dgrey text-justify px-5">
-                            Sardargarh district displays a diversity in cultures
-                            blend of the past, present and the future. Three
-                            generations living together showcase the blend of
-                            ancestral traditions, the medieval generation and
-                            the todays modern day youth. <br> <br>
-                            Sardargarh is one of the magnificent battle forts
-                            of Rajasthan with a 300 year history. It is now an
-                            all-suite hotel offering a reflection of the history
-                            and culture of a bygone era. <br> <br>
-                            The fort still retains its medieval underground
-                            infrastructure – passage systems, rooms, halls,
-                            granaries and stores which are open to guests.
-                            With breath-taking views of the lake and the
-                            Aravallis, Sardargarh offers guests an exceptional
-                            experience of the heritage of the land ranging
-                            from folk music, art and farm-to-table cuisine.
-                        </p>
-
-
-                        <div class="text-end px-5">
-                            <a href="" type="button" class="btn btn-pink f-s-12 font-Trajan">
-                                READ MORE
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- ! Cultural section -->
         <!-- Dining section -->
-        <section id="Dining-section"> 
-            <div class="container-fluid my-5 px-5">
-                <div class="row py-2">
-                    <div class="float-left color-dark">
-                        <h2 class="font-Trajan f-s-30 text-start">WINE AND DINE</h2>
-                     </div>
+        <section id="dining"> 
+            <div class="container">
+                <div class="row">
+                            <h2 class="font-Trajan f-s-40 text-center">DINING</h2>     
                 </div>
                 <div class="row">
-                    <div class="bg-image-3 px-5">
-                        <img src="./assets/images/Wine_Dine.jpg" alt="values" height="100%" width="100%">
-                    </div>
-                </div>
-            </div> 
-        </section>
-        <!-- !Dining section -->
-        <!-- Time section -->
-        <section id="Time-section"> 
-            <div class="container-fluid my-5">
-                <div class="row py-2">
-                    <div class="float-left color-dark">
-                        <h2 class="font-Trajan f-s-30 text-start">STORIES WOVEN WITH TIME</h2>
-                     </div>
-                </div>
-                
-                <div class="media row">
-                    <div class="bg-image-4">
-                        <img src="./assets/images/Stories.jpg" alt="values" height="100%" width="100%">
-                    </div>
-                </div>
-            </div> 
-        </section>
-        <!-- !Time section -->
-        <!-- Testimonial section -->
-        <section id="Testimonial-section"> 
-            <div class="container-fluid my-5">
-                <div class="row ">
-                    <div class="col">
-                        <div class="w-100 text-wrap ">
-                           <h2><span class="font-Trajan f-s-30 color-gold">WHAT OUR CLIENTS SAY</span></h2>
-                           <p class="color-dgrey font-Brandon f-s-20 my-3 para-test">Our new kiosk dummy text. Our new kiosk dummy text. Our new kiosk dummy text. Our new 
-                            kiosk dummy text. Our new kiosk dummy text. Our new kiosk.</p>
-
+                    <div class="card-group">
+                        
+                        <div class="col col-md-4 px-4">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/Patio.jpg" class="card-img-top " alt="Dining_1">
+                          <div class="card-body">
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">THE PATIO</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
+                            </p>
+                          </div>
                         </div>
-                    </div>
+                       </div>
+                        
+                       <div class="col col-md-4 px-4">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/Khush_Mahal.jpg" class="card-img-top " alt="Dining_2">
+                          <div class="card-body">
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">KHUSH MAHAL</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
+                            </p>
+                          </div>
+                        </div>
+                       </div>
+
+                       <div class="col col-md-4 px-4">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/Rawla.jpg" class="card-img-top " alt="Dining_3">
+                          <div class="card-body">
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">RAWLA TERRACE</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
+                            </p>
+                          </div>
+                        </div>
+                       </div>
+
+                      </div>
+
                 </div>
             </div> 
         </section>
-        <!-- ! Testimonial section -->
+        <!-- ! Dining section ends -->
+
+        <!-- Story section -->
+        <section id="story-section"> 
+
+            <img class="img-responsive" src="./assets/images/revised/Backdrop.png" alt="banner-img" width="100%" height="100%">
+                      
+        </section>
+        <!-- !Story section -->
+        <!-- Experiences section -->
+        <section id="experiences"> 
+            <div class="container">
+                <div class="row">
+                            <h2 class="font-Trajan f-s-40 text-center">EXPERIENCES</h2>     
+                </div>
+                <div class="row">
+                    <div class="card-group">
+                        
+                        <div class="col col-md-4 px-4">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/activities.jpg" class="card-img-top " alt="Dining_1">
+                          <div class="card-body">
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">ACTIVITIES</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
+                            </p>
+                          </div>
+                        </div>
+                       </div>
+                        
+                       <div class="col col-md-4 px-4">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/events.jpg" class="card-img-top " alt="Dining_2">
+                          <div class="card-body">
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">EVENTS</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
+                            </p>
+                          </div>
+                        </div>
+                       </div>
+
+                       <div class="col col-md-4 px-4">
+                        <div class="card h-90 my-md-3">
+                          <img src="./assets/images/revised/wedding.jpg" class="card-img-top " alt="Dining_3">
+                          <div class="card-body">
+                            <h3 class="card-title color-lgrey f-s-30 font-Trajan text-center">WEDDINGS</h3>
+                            <p class="card-text f-s-20 color-dgrey text-center">
+                                Welcome to your personal paradise. <br>
+                                Book this royal suite with your very own private verandah and discover a lush and tranquil space in this crafted masterpiece.
+                            </p>
+                          </div>
+                        </div>
+                       </div>
+
+                      </div>
+
+                </div>
+            </div> 
+        </section>
+        <!-- !Experiences section ends -->
+
+        <!-- Gallery section -->
+        <section class="gallery my-5">
+            <div class="row">
+                <h3 class="card-title color-gold f-s-30 font-Trajan text-center">INDULGE IN SOME OF THE MOST BEAUTIFUL<br>
+                    PHOTOGRAPHIC MEMORIES OUR GUESTS MADE <br>
+                    AT THE FORT AND DON'T FORGET TO SHARE YOURS. 
+                </h3>
+            </div>
+            <div class="row my-5">
+                <h4 class="card-title color-gold f-s-20 font-Trajan text-center">Facebook | Instagram | #TheHiddenPalace</h4>
+            </div>
+            <div class="row">
+
+
+            </div>
+        </section>
+
     </main>
     <!--! Mainsite ends -->
 
 
     <!-- Footer section -->
-    <footer class="container-fluid footer color-gold-bg">
-<div class="row">
-    <div class="col"></div>
-    <div class="col"></div>
-</div>
-<nav class="navbar navbar-light navbar-expand-md color-gold-bg">
-    <div class="container-fluid">
-        <div class="navbar-brand navbar-left d-flex">
-            <a href="./index.html" ><img src="./assets/logo/logo-watermark-white.png" alt="brand-logo" class='logo ms-2'/>
-        </div>
+    <footer class="container-fluid footer">
         
-        
-    
-        <!-- Toggler/collapsibe Button -->
-        <Button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </Button>
-        
-        <div class="collapse navbar-collapse navbar-toggleable-md m-auto" id="collapsibleNavbar">
-    <ul class="navbar-nav nav-pills nav-fill me-auto ms-auto font-Trajan">
-        <li class="nav-item">
-            <a href="#" class="nav-link font-size-40 color-white">CONTACT US</a>
-        </li>
-        <li class="nav-item mx-3">
-        <a href="#" class="nav-link font-size-40 color-white ">SITE MAP</a>
-        </li>
-        <li class="nav-item mx-3">
-        <a href="#" class="nav-link font-size-40 color-white">BLOGS</a>
-        </li>
-        <li class="nav-item mx-3">
-        <a href="#" class="nav-link font-size-40 color-white" >INQUIRY</a>
-        </li>
-    </ul>
-            
-    </div>
-    </div>
-</nav>
+        <hr>
 
-
-            <!-- <div class="row">
-                <div class="col-12 ">
-                    <p class="footer-credit">
-                        <a href="/" class="text-dark text-decoration-none color-white" >© 2021 All right reserved:</a>
-                        <span ><a href="/" class="text-dark text-decoration-none color-white">Sardargarh Fort</a></span>
-                    </p>
-                </div>
-            </div> -->
     </footer>
     <!-- !Footer section -->
 
